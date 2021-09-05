@@ -7,6 +7,18 @@ import About from './components/About'
 import Tasks from './components/Tasks'
 import AddTask from "./components/AddTask"
 
+/* 
+  COMMANDS USED:  
+  - npx create-react-app my-app -> Creates a new React Application
+  - npm start -> Starts the React Application Development Build
+  - npm run build -> Creates a production build of the project
+  - npm i react-icons -> Installs React Icons on the Project
+  - npm i json-server -> Installs JSON Server on the Project
+  - npm i -g serve -> Installs the Serve package, to serve the production build locally
+  - npm run server -> Custom Script:
+    - json-server --watch db.json --port 5000 -> Runs the JSON Server on port 5000 & watches the db file for any change
+*/
+
 const App = () => {
   const [showAddTask, setShowAddTask] = useState(false)
 
